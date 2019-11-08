@@ -21,6 +21,7 @@
 *.smod
 
 # Compiled Static libraries
+bin
 *.lai
 *.la
 *.a
@@ -30,3 +31,9 @@
 *.exe
 *.out
 *.app
+
+# Custom
+old
+
+# IDE
+.vscode
