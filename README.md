@@ -3,7 +3,7 @@
 Este proyecto es desarrollado como proyecto final de Computación Gráfica, para la carrera Ingeniería en Informática, FICH - UNL, Argentina.
 
 ## Objetivos
-Desarrollar un API gráfica para OpenGL 4.3, que permita al usuario desentenderse de .
+Desarrollar un API gráfica para OpenGL 4.3, que permita al usuario desentenderse de los aspectos técnicos, ajenos a la computación Gráfica, que rondan a OpenGL. Además de resolver situaciones de uso común en la computación gráfica de manera amigable.
 
 La misma estará centrada exclusivamente en entornos 3D.
 
