@@ -37,7 +37,7 @@ No creo que esto tenga implicancia alguna sobre nada, pero es un ejercicio entre
 
 ## Ejemplo de uso
 
-> myapp.cpp
+> myapp.h
 >  ```cpp
 >  class MyApp : Graph3D {
 >    private:
@@ -49,7 +49,7 @@ No creo que esto tenga implicancia alguna sobre nada, pero es un ejercicio entre
 >  ```
 
 
-> myapp.h
+> myapp.cpp
 >  ```cpp
 >  MyApp::MyApp() : Graph3D(800, 600, "Mi Aplicación OpenGL") {
 >    loadShaders({"simple_phong"});
