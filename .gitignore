@@ -33,6 +33,8 @@ bin
 *.app
 
 # Custom
+include
+lib
 old
 
 # IDE

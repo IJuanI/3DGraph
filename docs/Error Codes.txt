@@ -1,0 +1,7 @@
+'WAR001': Error de Recursos: No se definió una carpeta de recursos. 'utils/resources.h@getResources'
+'WAR002': Error de Recursos: Archivo no encontrado. 'utils/resources.h@getResourceFile'
+'WAR003': Error de Recursos: Carpeta no encontrada. 'utils/resources.h@getResourceFolderPath'
+
+'ERR001': Error de Archivo: No se pudo leer un shader. 'opengl/shader.h@addShader'
+'ERR002': Error de linkeo en un programa (shaders). 'opengl/shader.h@checkLinkingErrors'
+'ERR003': Error de compilación en un shader. 'opengl/shader.h@checkCompileErrors'

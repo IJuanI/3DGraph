@@ -4,15 +4,15 @@ project(3DGraph CXX C)
 
 # Search dirs and files
 set(SRC_DIR ${CMAKE_SOURCE_DIR}/src)
-set(INC_DIR "${CMAKE_SOURCE_DIR}/../include")
-set(LIB_DIR "${CMAKE_SOURCE_DIR}/../lib")
+set(INC_DIR ${CMAKE_SOURCE_DIR}/include)
+set(LIB_DIR ${CMAKE_SOURCE_DIR}/lib)
 file(GLOB_RECURSE SOURCE_FILES ${SRC_DIR}/*.cpp ${SRC_DIR}/*.cc ${SRC_DIR}/*.c)
 file(GLOB_RECURSE HEADER_FILES
 	${INC_DIR}/*.h
 	${INC_DIR}/*.hpp)
 
 # Configure assets header file
-configure_file(src/utils/resources.h.in src/utils/resources.h)
+# configure_file(src/utils/resources.h.in src/utils/resources.h)
 # include_directories(${CMAKE_BINARY_DIR}/src)
 
 # Executable definition and properties
